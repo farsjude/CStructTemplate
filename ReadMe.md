@@ -13,4 +13,8 @@ This project shows how to define a struct, dynamically allocate memory for it, a
 
    ```bash
    gcc CStructTemplate.c -o CStructTemplate
+
+## Known Issues/Considerations:
+Data type portability: The long data type may vary in size across platforms (e.g., 32-bit vs 64-bit systems). The longNumber field might not behave consistently in all environments.
+Print format specifier: Ensure you're using the correct format specifier based on your platform's long size (e.g., %ld for long, %lld for long long).
    
