@@ -1,0 +1,25 @@
+# Ignore compiled object files
+*.o
+
+# Ignore compiled binary executables (for example: your program output file)
+*.exe
+*.out
+my_program   # Name of your compiled program, e.g. my_program.exe or my_program.out
+
+# Ignore build directories (if you use them for storing compiled files)
+build/
+bin/
+
+# Ignore temporary files created by text editors/IDEs
+*~
+*.swp       # For vim or other editors that create swap files
+*.bak       # Backup files
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
